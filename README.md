@@ -1,13 +1,14 @@
 # Exercices-réseaux-de-neurones
 
-The aim of this TD 
+** YOU HAVE TO SAVE YOUR CODE FOR THE NEXT SESSION**
+
+In this TD, we are going to use neural network models to perform multiclass classification.
+We aim to predicting the age of abalone from physical measurements. The age of abalone is determined by cutting the shell through the cone, staining it, and counting the number of rings through a microscope -- a boring and time-consuming task. Other measurements, which are easier to obtain, are used to predict the age. Further information, such as weather patterns and location (hence food availability) may be required to solve the problem.
+For the sake of simplicity, we are going to consider that we have 7 category of ages denoted "Class_0" to "Class_6" 
 
 
-
-
-
-- Download the date from [here](https://drive.google.com/file/d/11Yj3HYj2AMa4MF1dLkwiuQ9_nwqRbr_z/view?usp=sharing) and read it using  `pandas` library and check if there are some missing values
-- Normalize the data between 0 and 1 
+- Download the date from [here](https://drive.google.com/file/d/17mJbjugmT02gSAwDEGQDw703lF9OG2jS/view?usp=sharing) and read it using  `pandas` library and check if there are some missing values
+- Normalize the data between 0 and 1 and name the new dataset as *data_scaled*. Scale the data using another scaling method and explain the difference between the two methods in your words.
 - Use `sklearn.model_selection` to split your data into training and testing sets where the test set represents 30% of the data
 - Use `keras.models` to initialize a sequential neural network object model called **model**. What will be your input dimension. [check this page](https://www.tensorflow.org/api_docs/python/tf/keras/Input)
 
