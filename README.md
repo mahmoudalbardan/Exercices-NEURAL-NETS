@@ -3,7 +3,7 @@
 ** YOU HAVE TO SAVE YOUR CODE FOR THE NEXT SESSION**
 
 In this TD, we are going to use neural network models to perform multiclass classification.
-We aim to predicting the age of abalone from physical measurements. The age of abalone is determined by cutting the shell through the cone, staining it, and counting the number of rings through a microscope -- a boring and time-consuming task. Other measurements, which are easier to obtain, are used to predict the age. Further information, such as weather patterns and location (hence food availability) may be required to solve the problem.
+We aim to predict the age of abalone from physical measurements. The age of abalone is determined by cutting the shell through the cone, staining it, and counting the number of rings through a microscope -- a boring and time-consuming task. Other measurements, which are easier to obtain, are used to predict the age. Further information, such as weather patterns and location (hence food availability) may be required to solve the problem.
 For the sake of simplicity, we are going to consider that we have 7 category of ages denoted "Class_0" to "Class_6" 
 
 
@@ -13,7 +13,7 @@ For the sake of simplicity, we are going to consider that we have 7 category of 
 - Use `keras.models` to initialize a sequential neural network object model called **model**. What will be your input dimension. [check this page](https://www.tensorflow.org/api_docs/python/tf/keras/Input)
 
 - What is the function that allows you to add layers to the model [check this page](https://www.tensorflow.org/api_docs/python/tf/keras/Sequential)
-- Use `model.layers` to create a **Dense** layer with 10 neurons and **relu** as activation function. Can we use other activation functions?? Give some examples [check this page](https://www.tensorflow.org/api_docs/python/tf/keras/Model)
+- Use `model.layers` to create a **Dense** layer with 10 neurons and **relu** as activation function. Can we use other activation functions ?? Give some examples [check this page](https://www.tensorflow.org/api_docs/python/tf/keras/Model)
 - Generate simulated data and visualize the shape of each one after writing functions that encodes them
 - Create 2 more layers each one and add them to your model. 
 - Create the output layer and add it to your model. Watch out for the choice of the correct activation function for the last layer.
