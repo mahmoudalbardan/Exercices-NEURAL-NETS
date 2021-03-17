@@ -1,6 +1,6 @@
 # Exercices-réseaux-de-neurones
 
-** YOU HAVE TO SAVE YOUR CODE FOR THE NEXT SESSION**
+** YOU HAVE TO WORK ON GOOGLE COLLAB. YOU HAVE TO SAVE YOUR CODE FOR THE NEXT SESSION**
 
 In this TD, we are going to use neural network models to perform multiclass classification.
 We aim to predict the age of abalone from physical measurements. The age of abalone is determined by cutting the shell through the cone, staining it, and counting the number of rings through a microscope -- a boring and time-consuming task. Other measurements, which are easier to obtain, are used to predict the age. Further information, such as weather patterns and location (hence food availability) may be required to solve the problem.
