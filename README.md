@@ -1,4 +1,4 @@
-# Exercices-réseaux-de-neurones
+# Exercices-Neural nets
 
 ** YOU HAVE TO WORK ON GOOGLE COLLAB. YOU HAVE TO SAVE YOUR CODE FOR THE NEXT SESSION**
 
